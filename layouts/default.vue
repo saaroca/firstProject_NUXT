@@ -1,8 +1,15 @@
 <template>
   <div>
-    <nav class="navbar navbar-light bg-primary">
-      <a class="navbar-brand" href="#">primer-nuxt</a>
-    </nav>
+    <Cabecera titulo="primer-nuxt" color="navbar navbar-light bg-primary"/>
     <nuxt />
   </div>
 </template>
+
+<script>
+import Cabecera from '~/components/Cabecera.vue'
+export default {
+  components: {
+    Cabecera,
+  },
+}
+</script>

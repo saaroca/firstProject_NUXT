@@ -1,8 +1,16 @@
 <template>
   <div>
-    <nav class="navbar navbar-light bg-warning">
-      <a class="navbar-brand" href="#">CONTACTOS</a>
-    </nav>
+    <Cabecera titulo="CONTACTO" color="navbar navbar-light bg-warning" />
     <nuxt />
   </div>
 </template>
+
+<script>
+import Cabecera from '@/components/Cabecera.vue'
+
+export default {
+  components: {
+    Cabecera,
+  },
+}
+</script>
